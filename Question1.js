@@ -1,9 +1,9 @@
-// Q2: Given a string, reverse each word in the sentence
+// Q1: Given a string, reverse each word in the sentence
 
 // For example Welcome to this Javascript Guide! should be become emocleW ot siht tpircsavaJ !ediuG
 
 
-// Answer 1
+// Method 1
 // const string = "Welcome to this Javascript Guide!"
 
 // const reverseFun = (string) => {
@@ -19,7 +19,7 @@
 // console.log(reverseFun(string))
 
 
-// Answer 2
+// Method 2
 // var string = "Welcome to this Javascript Guide!";
 
 // // Output becomes !ediuG tpircsavaJ siht ot emocleW
@@ -35,7 +35,7 @@
 // console.log(reverseEachWord)
 
 
-// Answer 3
+// Method 3
 function reverseWords(sentence) {
     const words = sentence.split(' ');
 
